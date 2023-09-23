@@ -1,6 +1,8 @@
 # Atelier_Telegame
 Ce dépôt contiendra les fichiers des ateliers Pygame. Je vais y mettre des bouts de code et des explication pour les concepts basiques d'un jeu vidéo.
 
+Utilisation: `python jeu.py`
+
 ## Atelier du vendredi 22 septembre 2023
 > Premier atelier sur Pygame. Nous avons vu comment ouvrir une fenêtre Pygame, créer la boucle de rendu, dessiner une image à l'écran et la faire bouger à l'aide du clavier.
 
@@ -69,24 +71,5 @@ display.blit(text, (20, 20))
 ```python
 vel += acc * dt
 pos += vel * dt
+# Si pos, vel et acc sont des tableaux, décomposer le calcul sur leurs composantes
 ```
-
-
-
-
-```python
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
