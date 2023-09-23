@@ -73,16 +73,3 @@ vel += acc * dt
 pos += vel * dt
 # Si pos, vel et acc sont des tableaux, décomposer le calcul sur leurs composantes
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
